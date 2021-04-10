@@ -59,7 +59,9 @@ img {
   width: 1px
   height: 90%
   background: rgba(70,76,99,1)
-  .bar 
+}
+
+ .timeline .bar {
     position: absolute
     width: 1px
     background-color: #fcf769
@@ -107,7 +109,9 @@ p {
     height: 9px
     left: -3px
     top: -3px 
-  span 
+}
+
+ .node span {
     transition: all .4s ease-out
     text-transform: uppercase
     right: 4px
