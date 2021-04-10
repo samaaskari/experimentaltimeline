@@ -95,14 +95,16 @@ p {
   z-index: 1
   cursor: pointer
   border-radius: 3px
+}
   
-  &:hover 
+ .node &:hover {
     background: #46ffdd
     span
       opacity: 1
+}
     
   
-  &:before
+.node &:before {
     content: ""
     position: absolute
     width: 9px
