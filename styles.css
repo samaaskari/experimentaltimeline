@@ -13,7 +13,9 @@ a.white-mode, a.white-mode:link, a.white-mode:visited, a.white-mode:active {
   padding: 4px 8px
   z-index: 10
   color: #3B425A
-  &:hover
+}
+  
+ a.white-mode, a.white-mode:link, a.white-mode:visited, a.white-mode:active &:hover{
     background: #7B46FE
     color: #FDFA75
 }
@@ -30,7 +32,9 @@ h1 {
   font-weight: 400
   color: #7045ff
   position: relative
-  &:after
+}
+
+h1 &:after {
     content: ""
     padding-bottom: 30px
     display: block
