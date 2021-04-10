@@ -3,7 +3,7 @@
 
 a.white-mode, a.white-mode:link, a.white-mode:visited, a.white-mode:active {
   position: fixed;
-  font-family: "Montserrat";
+  font-family: 'Roboto Slab', serif;
   transform: rotate(-90deg);
   transform-origin: 0 0;
   left: 40px;
@@ -86,7 +86,7 @@ section {
   padding: 20px;
   font-size: 16px;
   font-weight: 200;
-  font-family: "Montserrat";
+  font-family: 'Roboto Slab', serif;
 }
 
 p {
