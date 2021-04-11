@@ -62,7 +62,7 @@ img {
   margin-top: 90vh;
   padding: 0;
   list-style: none;
-  position: fixed;
+  position: sticky;
   left: 100px;
   top: 5%;
   width: 1px;
