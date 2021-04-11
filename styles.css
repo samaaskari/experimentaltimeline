@@ -1,5 +1,7 @@
 @import url("https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700");
 
+#timelineMargin {margin-top: 90vh;}
+
 a.white-mode, a.white-mode:link, a.white-mode:visited, a.white-mode:active {
   position: fixed;
   font-family: 'Roboto Slab', serif;
@@ -57,7 +59,7 @@ img {
 }
 
 .timeline {
-  margin-top: 90vh;
+  margin: 0;
   padding: 0;
   list-style: none;
   position: fixed;
