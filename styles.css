@@ -59,10 +59,10 @@ img {
 }
 
 .timeline {
-  margin-top: 90vh;
+  margin: 0;
   padding: 0;
   list-style: none;
-  position: relative;
+  position: fixed;
   left: 100px;
   top: 5%;
   width: 1px;
